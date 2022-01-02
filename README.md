@@ -20,7 +20,7 @@ NOTE: this is a fork of [munlik's theme](https://github.com/munlik/refind-theme-
    ```
    sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)"
    ```
-2. To further adjust icon size, font size, background color and selector color edit `/boot/efi/EFI/refind/refind-theme-regular/theme.conf` as root/SuperUser.
+2. To further adjust icon size, font size, background color and selector color edit `/boot/efi/EFI/refind/refind-theme-regular/themes/theme.conf` as root/SuperUser.
 
 ### Installation [Manual]:
 
@@ -42,6 +42,7 @@ NOTE: this is a fork of [munlik's theme](https://github.com/munlik/refind-theme-
    **Important:** Delete older installed versions of this theme before you proceed any further.
 
    ```
+   sudo rm -rf /boot/efi/EFI/refind/{regular-theme,refind-theme-regular}
    sudo rm -rf /boot/efi/EFI/refind/themes/{regular-theme,refind-theme-regular}
    ```
    ```
